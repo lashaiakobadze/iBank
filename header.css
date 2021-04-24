@@ -1,0 +1,138 @@
+/* Header components */
+.header {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+  }
+  
+  .logo-beta {
+    height: 18px;
+    letter-spacing: normal;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    border-radius: 18px;
+    font-size: 10px;
+    font-weight: 500;
+    background-color:rgba(0, 0, 0, 0.04);
+    color:#000000AD;
+  }  
+  
+  .account {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+  
+  .mode-switcher {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.5s;
+  }
+  
+  .mode-switcher:hover {
+    background-color: gainsboro;
+  }
+    
+  .account-switcher {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    height: 40px;
+  }
+  
+  .account-icon {
+    width: 41px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fcfcfc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .account-user {
+    height: inherit;
+    font-size: 12px;
+    color: #646464;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .account-arrow {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .account-arrow-icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.32);
+    transition: background-color 0.5s;
+  }
+  
+  .account-arrow:hover  .account-arrow-icon {
+    background-color: gainsboro;
+  }
+  
+  .account-arrow-icon img {
+    height: 16px;
+    width: 16px;
+  }
+  
+  
+  /* Navigation */
+  .navigation {
+    height: 48px;
+    width: 100%;
+    display: flex;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);  
+  }
+  
+  .navigation-pages {
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+  
+  
+  .page a {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #fffffb;
+    font-family: BOG;
+    transition: font-weight 0.1s;
+  }
+  
+  .page:hover a {
+    font-weight: 600;
+  }
