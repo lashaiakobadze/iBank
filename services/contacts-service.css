@@ -1,0 +1,49 @@
+/* contacts */
+.contacts-items {
+    padding: 12px 24px 24px;
+    display: flex;
+  }
+  
+  .contact-item {
+    padding: 16px 0;
+    width: 96px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color .5s;
+  }
+  
+  .contact-item:hover {
+    background-color: rgba(174, 181, 187, 0.32);
+  }
+  
+  .contact-logo {
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-name {
+    font-size: 14px;
+    margin-top: 6px;
+    font-weight: 600;
+    text-align: center;
+    white-space: pre-wrap;
+  }
+  
+  .other-logo {
+    width: 48px;
+    height: 48px;
+    background-color: #fae0d3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

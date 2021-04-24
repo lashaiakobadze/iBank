@@ -1,0 +1,77 @@
+/* payment */
+.payment {
+    padding: 0px 24px 24px 24px;
+    width: 100%;
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .payment-item {
+    width: 49%;
+    height: 80px;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #0000000A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color .5s;
+  }
+  
+  .payment-item:hover {
+    background-color: rgba(174, 181, 187, 0.32);
+  }
+  
+  .payment-programs {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  
+  .payment-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .payment-logo {
+    width: 48px;
+    height: 48px;
+    border-radius: 18px;
+    background-color: #fae0d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .payment-name {
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000AD;
+  }
+  
+  .payment-value {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #000000AB;
+  }
+  
+  .paiment-date {
+    height: 18px;
+  }
+  
+  .paiment-date  span{
+    background-color: #06a74c;
+    color: #fffffffb;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: 10px;
+    padding: 0 5px;
+    white-space: nowrap;
+  }
