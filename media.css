@@ -1,0 +1,62 @@
+@media (max-width: 1200px) {
+    .service-page {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .suggest-page {
+        display: none;
+    }
+}
+
+/* @media (max-width: 1024px) {
+    .payment-item {
+        flex-direction: column;
+    }
+
+    .paiment-date {
+        margin-top: 10px;
+        width: 70%;
+        align-self: flex-end;
+    }
+} */
+
+@media (max-width: 780px) {
+    .operation-page {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .account {
+        display: none;
+    }
+
+    .navigation-content {
+        display: none;
+    }
+
+    .header-content {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .main-content {
+        padding: 16px 0;
+    }
+
+    .payment {
+        flex-direction: column;
+    }
+
+    .payment-item {
+        width: 100%;
+    }
+}

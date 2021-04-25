@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iBank</title>
+    <!-- <link rel="stylesheet" href="layout.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container header-content">
+        <header class="header">
+            <div class="logo">
+                <img src="./assets/large.svg" alt="iBank-logo">
+                <span class="logo-beta">BETA</span>
+            </div>
+            <div class="account">
+                <div class="mode-switcher">
+                    <svg style="pointer-events: none; display: block; color: rgba(0, 0, 0, 0.68);" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs>
+                            <path d="M8,2 C9.09325897,2 10.1182253,2.29239547 11.000963,2.80325037 C9.20661355,3.84009304 8,5.77913667 8,8 C8,10.2208633 9.20661355,12.159907 11.0000394,13.1973296 C10.1182253,13.7076045 9.09325897,14 8,14 C4.6862915,14 2,11.3137085 2,8 C2,4.6862915 4.6862915,2 8,2 Z" id="path-1"></path>
+                        </defs>
+                        <g stroke="none" stroke-width="1" fill-rule="evenodd">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g></g>
+                            <g mask="url(#mask-2)" fill="currentColor">
+                                <g>
+                                    <rect x="0" y="0" width="16" height="16"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <div class="account-switcher">
+                    <div class="account-icon">
+                        <svg style="pointer-events: none; display: block;" width="16px" height="16px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="icons-48-general-user_retail-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <rect id="shape" x="0" y="0" width="16" height="16"></rect>
+                                <path d="M34.617551,28.8551021 C33.9581907,28.2682713 32.9479532,28.3270682 32.3611225,28.9864286 C31.7742917,29.6457889 31.8330886,30.6560264 32.492449,31.2428572 C35.1871912,33.6544575 36.729557,37.0980135 36.7346939,40.7142858 L36.7346939,43.1020409 L11.2653061,43.1020409 L11.2653061,40.7142858 C11.2653061,33.6811085 16.9668228,27.9795918 24,27.9795918 C26.9552695,27.9795918 29.7894988,26.8056156 31.8791899,24.7159245 C33.9688809,22.6262335 35.1428572,19.7920041 35.1428572,16.8367347 L35.1428572,12.8571428 C35.1428571,6.70311282 30.15403,1.71428584 24,1.71428584 C17.84597,1.71428584 12.8571429,6.70311282 12.8571428,12.8571428 L12.8571428,16.8367347 C12.858637,20.5390027 14.6988712,23.9987623 17.7679592,26.0693878 C11.8953991,28.5679336 8.08276935,34.332304 8.08163262,40.7142858 L8.08163262,44.6938776 C8.08163262,45.5730247 8.79432221,46.2857143 9.67346936,46.2857143 L38.3265306,46.2857143 C39.2056778,46.2857143 39.9183674,45.5730247 39.9183674,44.6938776 L39.9183674,40.7142858 C39.9183674,36.1873193 37.9904023,31.8745886 34.617551,28.8551021 Z M16.0408163,16.8367347 L16.0408163,12.8571428 C16.0408163,8.46140706 19.6042642,4.89795915 24,4.89795915 C28.3957358,4.89795915 31.9591837,8.46140706 31.9591837,12.8571428 L31.9591837,16.8367347 C31.9591837,21.2324705 28.3957358,24.7959184 24,24.7959184 C19.6042642,24.7959184 16.0408163,21.2324705 16.0408163,16.8367347 Z" id="general-:-user_retail-:-outline" fill="currentColor" fill-rule="nonzero"></path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="account-user">ლაშა იაკობაძე</div>
+                    <div class="account-arrow">
+                        <div class="account-arrow-icon">
+                            <svg style="pointer-events: none; display: block;" width="16px" height="16px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="icons-48-system-chevron_down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <rect id="shape" x="0" y="0" width="16" height="16"></rect>
+                                    <path d="M23.3632653,35.4612245 C22.8893704,35.4599269 22.4338561,35.2777212 22.0897959,34.9518368 L2.32555098,16.4865306 C1.70987893,15.7544649 1.73060236,14.6798812 2.37404202,13.9720976 C3.01748169,13.264314 4.0852338,13.1415745 4.87248976,13.6848979 L23.3632653,31.0040816 L41.8031021,13.6848979 C42.2817601,13.1157489 43.0472232,12.8761335 43.7649709,13.0707676 C44.4827185,13.2654018 45.022263,13.8589007 45.1478142,14.5918953 C45.2733654,15.3248899 44.9620979,16.0641205 44.3500409,16.4865306 L24.6367347,34.9518368 C24.2926745,35.2777212 23.8371602,35.4599269 23.3632653,35.4612245 L23.3632653,35.4612245 Z" id="Mask" fill="currentColor" fill-rule="nonzero"></path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="container navigation-content sticky">
+        <nav class="navigation">
+            <ul class="navigation-pages">
+                <li class="page main-page"><a href="">მთავარი</a></li>
+                <li class="page product-page"><a href="">პროდუქტები</a></li>
+                <li class="page payment-page"><a href="">გადარიცხვები და გადახდები</a></li>
+                <li class="page transfer-page"><a href="">გზავნილები</a></li>
+                <li class="page operation-page"><a href="">ჩემი ოპერაციები</a></li>
+                <li class="page suggest-page"><a href="">შეთავაზებები და განაცხადები</a></li>
+                <li class="page service-page"><a href="">სერვისები</a></li>
+            </ul>
+            <div class="navigation-services"></div>
+        </nav>
+    </div>
+    <div class="container main-content">
+        <main class="services">
+            <div class="service money">
+                <h2 class="service-header">სულ ხელმისაწვდომი თანხა</h2> 
+                <span class="balance">0.00 ₾</span> 
+                <div class="service-content service-content-header">
+                    <span class="header-name name">სახელი</span>
+                    <span class="header-currency currency">ვალუტა</span>
+                    <span class="header-amount amount">თანხა</span>
+                </div>
+                <div class="service-content-item">
+                    <div class="name universal">
+                        <img src="./assets/universaluri.png" alt="angarishi">
+                        <div>
+                            <span>უნივერსალური ანგარიში</span>
+                            <div class="extra-curs">
+                                <div class="currency-item">₾</div>
+                                <div class="currency-item">$</div>
+                                <div class="currency-item">&</div>
+                                <div class="currency-item">#</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="currency universal">
+                        <div class="universal-curs">
+                            <div class="currency-item">₾</div>
+                            <div class="currency-item">$</div>
+                            <div class="currency-item">&</div>
+                            <div class="currency-item">#</div>
+                        </div>
+                    </div>
+                    <div class="amount">
+                        <span>0.00 ₾</span>
+                    </div>
+                </div>
+                <div class="service-content-item">
+                    <div class="name universal">
+                        <img src="./assets/universaluri.png" alt="angarishi">
+                        <div>
+                            <span>უნივერსალური ანგარიში</span>
+                            <div class="extra-curs">
+                                <div class="currency-item">₾</div>
+                                <div class="currency-item">$</div>
+                                <div class="currency-item">&</div>
+                                <div class="currency-item">#</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="currency universal">
+                        <div class="universal-curs">
+                            <div class="currency-item">₾</div>
+                            <div class="currency-item">$</div>
+                            <div class="currency-item">&</div>
+                            <div class="currency-item">#</div>
+                        </div>
+                    </div>
+                    <div class="amount">
+                        <span>0.00 ₾</span>
+                    </div>
+                </div>               
+            </div>
+            <div class="service payments">
+                <div class="services-content">
+                    <h2 class="service-header">მოახლოებული გადახდები</h2>
+                    <div class="payment">
+                        <div class="payment-item">
+                            <div class="payment-programs">
+                                <div class="payment-logo">
+                                    <img src="./assets/plus.png" alt="plus-logo" style="width: 16px; height: 16px; border-radius: 50%;">
+                                </div>
+                                <div class="payment-service">
+                                    <div class="payment-name">ინტერნეტ...</div>
+                                    <div class="payment-value">1.5 ₾</div>
+                                </div>                                
+                            </div>
+                            <div class="paiment-date">
+                                <span>3 დღეში</span> 
+                            </div>
+                        </div>
+                        <div class="payment-item">
+                            <div class="payment-programs">
+                                <div class="payment-logo">
+                                    <img src="./assets/plus.png" alt="plus-logo" style="width: 16px; height: 16px; border-radius: 50%;">
+                                </div>
+                                <div class="payment-service">
+                                    <div class="payment-name">SMS ბანკი...</div>
+                                    <div class="payment-value">1.0 ₾</div>
+                                </div>                                
+                            </div>
+                            <div class="paiment-date">
+                                <span>3 დღეში</span> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service accumulate">
+                <div class="services-content">
+                    <h2 class="service-header">დაგროვების პროგრამები</h2>
+                    <div class="acc-programs">
+                        <div class="acc-logo">
+                            <img src="./assets/plus.png" alt="plus-logo" style="width: 30px; height: 30px; border-radius: 50%;">
+                        </div>
+                        <div class="acc-service">
+                            <div class="acc-name">PLUSE ქულები</div>
+                            <div class="acc-value">6,375</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service contacts">
+                <div class="services-content">
+                    <h2 class="service-header">კონტაქტები</h2>
+                    <div class="contacts-items">
+                        <div class="contact-item">
+                            <div class="contact-logo">
+                                <img src="./assets/small.svg" alt="img" style="width: 24px; height: 24px;" >
+                            </div>
+                            <div class="contact-name">Jon Doe</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-logo">
+                                <img src="./assets/small.svg" alt="img" style="width: 24px; height: 24px;" >
+                            </div>
+                            <div class="contact-name">Jon Doe</div>
+                        </div>                        
+                        <div class="contact-item">
+                            <div class="contact-logo">
+                                <img src="./assets/small.svg" alt="img" style="width: 24px; height: 24px;" >
+                            </div>
+                            <div class="contact-name">Jon Doe</div>
+                        </div>                        
+                        <div class="contact-item">
+                            <div class="contact-logo">
+                                <img src="./assets/small.svg" alt="img" style="width: 24px; height: 24px;" >
+                            </div>
+                            <div class="contact-name">Jon Doe</div>
+                        </div>                     
+                        <div class="contact-item">
+                            <div class="other-logo">
+                                <img src="./assets/plus.png" alt="img" style="width: 14px; height: 14px; border-radius: 50%;" >
+                            </div>
+                            <div class="contact-name">მეტის ნახვა</div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div class="service all-currency">
+                <div class="services-content">
+                    <h2 class="service-header">ვალუტის კურსები</h2>
+                    <span class="balance">0.00 ₾</span> 
+                    <div class="service-content service-content-header">
+                        <span class="header-name name">სახელი</span>
+                        <span class="header-currency currency">ვალუტა</span>
+                        <span class="header-amount amount">თანხა</span>
+                    </div>
+                    <div class="service-content-item">
+                        <div class="name universal">
+                            <img src="./assets/universaluri.png" alt="angarishi">
+                            <span>უნივერსალური ანგარიში</span>
+                        </div>
+                        <div class="currency universal">
+                            <div class="universal-curs">
+                                <div class="currency-item">₾</div>
+                                <div class="currency-item">$</div>
+                                <div class="currency-item">&</div>
+                                <div class="currency-item">#</div>
+                            </div>
+                        </div>
+                        <div class="amount">
+                            <span>0.00 ₾</span>
+                        </div>
+                    </div>
+                    <div class="service-content-item">
+                        <div class="name universal">
+                            <img src="./assets/universaluri.png" alt="angarishi">
+                            <span>უნივერსალური ანგარიში</span>
+                        </div>
+                        <div class="currency universal">
+                            <div class="universal-curs">
+                                <div class="currency-item">₾</div>
+                                <div class="currency-item">$</div>
+                                <div class="currency-item">&</div>
+                                <div class="currency-item">#</div>
+                            </div>
+                        </div>
+                        <div class="amount">
+                            <span>0.00 ₾</span>
+                        </div>
+                    </div>               
+                </div>                
+            </div>
+            <div class="service operations">
+                <div class="services-content">
+                    <h2 class="service-header">ბოლო ოპერაციები</h2>
+                    <div class="last-operations">
+                        <div class="operation">
+                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <div class="operation-content">
+                                <div class="operation-detals">
+                                    <div class="operation-date">9 აპრ, 2021</div>
+                                    <div class="operation-name">ლაშა იაკობაძე</div>
+                                    <div class="operation-type">გადარიცხვა</div>
+                                </div>
+                                <div class="operation-costs">
+                                    <div class="cost">0.00 ₾</div>
+                                    <div class="cost-detal">
+                                        <svg style="pointer-events: none; display: block; width: 100%; height: 100%;" width="16px" height="16px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="icons-48-system-more_vertical-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <rect id="shape" x="0" y="0" width="16" height="16"></rect>
+                                                <path d="M24,35.1428572 C27.077015,35.1428572 29.5714286,37.6372707 29.5714286,40.7142857 C29.5714286,43.7913008 27.077015,46.2857143 24,46.2857143 C20.922985,46.2857143 18.4285714,43.7913008 18.4285714,40.7142857 C18.4285714,37.6372707 20.922985,35.1428572 24,35.1428572 Z M24,18.4285714 C27.077015,18.4285714 29.5714286,20.922985 29.5714286,24 C29.5714286,27.077015 27.077015,29.5714286 24,29.5714286 C20.922985,29.5714286 18.4285714,27.077015 18.4285714,24 C18.4285714,20.922985 20.922985,18.4285714 24,18.4285714 Z M24,1.71428567 C27.077015,1.71428567 29.5714286,4.20869921 29.5714286,7.28571425 C29.5714286,10.3627293 27.077015,12.8571428 24,12.8571428 C20.922985,12.8571428 18.4285714,10.3627293 18.4285714,7.28571425 C18.4285714,4.20869921 20.922985,1.71428567 24,1.71428567 Z" id="Combined-Shape" fill="currentColor" fill-rule="nonzero"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="operation">
+                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <div class="operation-content">
+                                <div class="operation-detals">
+                                    <div class="operation-date">9 აპრ, 2021</div>
+                                    <div class="operation-name">ლაშა იაკობაძე</div>
+                                    <div class="operation-type">გადარიცხვა</div>
+                                </div>
+                                <div class="operation-costs">
+                                    <div class="cost">0.00 ₾</div>
+                                    <div class="cost-detal">
+                                        <svg style="pointer-events: none; display: block; width: 100%; height: 100%;" width="16px" height="16px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="icons-48-system-more_vertical-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <rect id="shape" x="0" y="0" width="16" height="16"></rect>
+                                                <path d="M24,35.1428572 C27.077015,35.1428572 29.5714286,37.6372707 29.5714286,40.7142857 C29.5714286,43.7913008 27.077015,46.2857143 24,46.2857143 C20.922985,46.2857143 18.4285714,43.7913008 18.4285714,40.7142857 C18.4285714,37.6372707 20.922985,35.1428572 24,35.1428572 Z M24,18.4285714 C27.077015,18.4285714 29.5714286,20.922985 29.5714286,24 C29.5714286,27.077015 27.077015,29.5714286 24,29.5714286 C20.922985,29.5714286 18.4285714,27.077015 18.4285714,24 C18.4285714,20.922985 20.922985,18.4285714 24,18.4285714 Z M24,1.71428567 C27.077015,1.71428567 29.5714286,4.20869921 29.5714286,7.28571425 C29.5714286,10.3627293 27.077015,12.8571428 24,12.8571428 C20.922985,12.8571428 18.4285714,10.3627293 18.4285714,7.28571425 C18.4285714,4.20869921 20.922985,1.71428567 24,1.71428567 Z" id="Combined-Shape" fill="currentColor" fill-rule="nonzero"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="operation">
+                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <div class="operation-content">
+                                <div class="operation-detals">
+                                    <div class="operation-date">9 აპრ, 2021</div>
+                                    <div class="operation-name">ლაშა იაკობაძე</div>
+                                    <div class="operation-type">გადარიცხვა</div>
+                                </div>
+                                <div class="operation-costs">
+                                    <div class="cost">0.00 ₾</div>
+                                    <div class="cost-detal">
+                                        <svg style="pointer-events: none; display: block; width: 100%; height: 100%;" width="16px" height="16px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="icons-48-system-more_vertical-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <rect id="shape" x="0" y="0" width="16" height="16"></rect>
+                                                <path d="M24,35.1428572 C27.077015,35.1428572 29.5714286,37.6372707 29.5714286,40.7142857 C29.5714286,43.7913008 27.077015,46.2857143 24,46.2857143 C20.922985,46.2857143 18.4285714,43.7913008 18.4285714,40.7142857 C18.4285714,37.6372707 20.922985,35.1428572 24,35.1428572 Z M24,18.4285714 C27.077015,18.4285714 29.5714286,20.922985 29.5714286,24 C29.5714286,27.077015 27.077015,29.5714286 24,29.5714286 C20.922985,29.5714286 18.4285714,27.077015 18.4285714,24 C18.4285714,20.922985 20.922985,18.4285714 24,18.4285714 Z M24,1.71428567 C27.077015,1.71428567 29.5714286,4.20869921 29.5714286,7.28571425 C29.5714286,10.3627293 27.077015,12.8571428 24,12.8571428 C20.922985,12.8571428 18.4285714,10.3627293 18.4285714,7.28571425 C18.4285714,4.20869921 20.922985,1.71428567 24,1.71428567 Z" id="Combined-Shape" fill="currentColor" fill-rule="nonzero"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="operation">
+                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <div class="operation-content">
+                                <div class="operation-detals">
+                                    <div class="operation-date">9 აპრ, 2021</div>
+                                    <div class="operation-name">ლაშა იაკობაძე</div>
+                                    <div class="operation-type">გადარიცხვა</div>
+                                </div>
+                                <div class="operation-costs">
+                                    <div class="cost">0.00 ₾</div>
+                                    <div class="cost-detal">
+                                        <svg style="pointer-events: none; display: block; width: 100%; height: 100%;" width="16px" height="16px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="icons-48-system-more_vertical-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <rect id="shape" x="0" y="0" width="16" height="16"></rect>
+                                                <path d="M24,35.1428572 C27.077015,35.1428572 29.5714286,37.6372707 29.5714286,40.7142857 C29.5714286,43.7913008 27.077015,46.2857143 24,46.2857143 C20.922985,46.2857143 18.4285714,43.7913008 18.4285714,40.7142857 C18.4285714,37.6372707 20.922985,35.1428572 24,35.1428572 Z M24,18.4285714 C27.077015,18.4285714 29.5714286,20.922985 29.5714286,24 C29.5714286,27.077015 27.077015,29.5714286 24,29.5714286 C20.922985,29.5714286 18.4285714,27.077015 18.4285714,24 C18.4285714,20.922985 20.922985,18.4285714 24,18.4285714 Z M24,1.71428567 C27.077015,1.71428567 29.5714286,4.20869921 29.5714286,7.28571425 C29.5714286,10.3627293 27.077015,12.8571428 24,12.8571428 C20.922985,12.8571428 18.4285714,10.3627293 18.4285714,7.28571425 C18.4285714,4.20869921 20.922985,1.71428567 24,1.71428567 Z" id="Combined-Shape" fill="currentColor" fill-rule="nonzero"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="operation">
+                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <div class="operation-content">
+                                <div class="operation-detals">
+                                    <div class="operation-date">9 აპრ, 2021</div>
+                                    <div class="operation-name">ლაშა იაკობაძე</div>
+                                    <div class="operation-type">გადარიცხვა</div>
+                                </div>
+                                <div class="operation-costs">
+                                    <div class="cost">0.00 ₾</div>
+                                    <div class="cost-detal">
+                                        <svg style="pointer-events: none; display: block; width: 100%; height: 100%;" width="16px" height="16px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="icons-48-system-more_vertical-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <rect id="shape" x="0" y="0" width="16" height="16"></rect>
+                                                <path d="M24,35.1428572 C27.077015,35.1428572 29.5714286,37.6372707 29.5714286,40.7142857 C29.5714286,43.7913008 27.077015,46.2857143 24,46.2857143 C20.922985,46.2857143 18.4285714,43.7913008 18.4285714,40.7142857 C18.4285714,37.6372707 20.922985,35.1428572 24,35.1428572 Z M24,18.4285714 C27.077015,18.4285714 29.5714286,20.922985 29.5714286,24 C29.5714286,27.077015 27.077015,29.5714286 24,29.5714286 C20.922985,29.5714286 18.4285714,27.077015 18.4285714,24 C18.4285714,20.922985 20.922985,18.4285714 24,18.4285714 Z M24,1.71428567 C27.077015,1.71428567 29.5714286,4.20869921 29.5714286,7.28571425 C29.5714286,10.3627293 27.077015,12.8571428 24,12.8571428 C20.922985,12.8571428 18.4285714,10.3627293 18.4285714,7.28571425 C18.4285714,4.20869921 20.922985,1.71428567 24,1.71428567 Z" id="Combined-Shape" fill="currentColor" fill-rule="nonzero"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="operation">
+                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <div class="operation-content">
+                                <div class="operation-detals">
+                                    <div class="operation-date">9 აპრ, 2021</div>
+                                    <div class="operation-name">ლაშა იაკობაძე</div>
+                                    <div class="operation-type">გადარიცხვა</div>
+                                </div>
+                                <div class="operation-costs">
+                                    <div class="cost">0.00 ₾</div>
+                                    <div class="cost-detal">
+                                        <svg style="pointer-events: none; display: block; width: 100%; height: 100%;" width="16px" height="16px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="icons-48-system-more_vertical-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <rect id="shape" x="0" y="0" width="16" height="16"></rect>
+                                                <path d="M24,35.1428572 C27.077015,35.1428572 29.5714286,37.6372707 29.5714286,40.7142857 C29.5714286,43.7913008 27.077015,46.2857143 24,46.2857143 C20.922985,46.2857143 18.4285714,43.7913008 18.4285714,40.7142857 C18.4285714,37.6372707 20.922985,35.1428572 24,35.1428572 Z M24,18.4285714 C27.077015,18.4285714 29.5714286,20.922985 29.5714286,24 C29.5714286,27.077015 27.077015,29.5714286 24,29.5714286 C20.922985,29.5714286 18.4285714,27.077015 18.4285714,24 C18.4285714,20.922985 20.922985,18.4285714 24,18.4285714 Z M24,1.71428567 C27.077015,1.71428567 29.5714286,4.20869921 29.5714286,7.28571425 C29.5714286,10.3627293 27.077015,12.8571428 24,12.8571428 C20.922985,12.8571428 18.4285714,10.3627293 18.4285714,7.28571425 C18.4285714,4.20869921 20.922985,1.71428567 24,1.71428567 Z" id="Combined-Shape" fill="currentColor" fill-rule="nonzero"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="operation">
+                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <div class="operation-content">
+                                <div class="operation-detals">
+                                    <div class="operation-date">9 აპრ, 2021</div>
+                                    <div class="operation-name">ლაშა იაკობაძე</div>
+                                    <div class="operation-type">გადარიცხვა</div>
+                                </div>
+                                <div class="operation-costs">
+                                    <div class="cost">0.00 ₾</div>
+                                    <div class="cost-detal">
+                                        <svg style="pointer-events: none; display: block; width: 100%; height: 100%;" width="16px" height="16px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="icons-48-system-more_vertical-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <rect id="shape" x="0" y="0" width="16" height="16"></rect>
+                                                <path d="M24,35.1428572 C27.077015,35.1428572 29.5714286,37.6372707 29.5714286,40.7142857 C29.5714286,43.7913008 27.077015,46.2857143 24,46.2857143 C20.922985,46.2857143 18.4285714,43.7913008 18.4285714,40.7142857 C18.4285714,37.6372707 20.922985,35.1428572 24,35.1428572 Z M24,18.4285714 C27.077015,18.4285714 29.5714286,20.922985 29.5714286,24 C29.5714286,27.077015 27.077015,29.5714286 24,29.5714286 C20.922985,29.5714286 18.4285714,27.077015 18.4285714,24 C18.4285714,20.922985 20.922985,18.4285714 24,18.4285714 Z M24,1.71428567 C27.077015,1.71428567 29.5714286,4.20869921 29.5714286,7.28571425 C29.5714286,10.3627293 27.077015,12.8571428 24,12.8571428 C20.922985,12.8571428 18.4285714,10.3627293 18.4285714,7.28571425 C18.4285714,4.20869921 20.922985,1.71428567 24,1.71428567 Z" id="Combined-Shape" fill="currentColor" fill-rule="nonzero"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="operation">
+                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <div class="operation-content">
+                                <div class="operation-detals">
+                                    <div class="operation-date">9 აპრ, 2021</div>
+                                    <div class="operation-name">ლაშა იაკობაძე</div>
+                                    <div class="operation-type">გადარიცხვა</div>
+                                </div>
+                                <div class="operation-costs">
+                                    <div class="cost">0.00 ₾</div>
+                                    <div class="cost-detal">
+                                        <svg style="pointer-events: none; display: block; width: 100%; height: 100%;" width="16px" height="16px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="icons-48-system-more_vertical-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <rect id="shape" x="0" y="0" width="16" height="16"></rect>
+                                                <path d="M24,35.1428572 C27.077015,35.1428572 29.5714286,37.6372707 29.5714286,40.7142857 C29.5714286,43.7913008 27.077015,46.2857143 24,46.2857143 C20.922985,46.2857143 18.4285714,43.7913008 18.4285714,40.7142857 C18.4285714,37.6372707 20.922985,35.1428572 24,35.1428572 Z M24,18.4285714 C27.077015,18.4285714 29.5714286,20.922985 29.5714286,24 C29.5714286,27.077015 27.077015,29.5714286 24,29.5714286 C20.922985,29.5714286 18.4285714,27.077015 18.4285714,24 C18.4285714,20.922985 20.922985,18.4285714 24,18.4285714 Z M24,1.71428567 C27.077015,1.71428567 29.5714286,4.20869921 29.5714286,7.28571425 C29.5714286,10.3627293 27.077015,12.8571428 24,12.8571428 C20.922985,12.8571428 18.4285714,10.3627293 18.4285714,7.28571425 C18.4285714,4.20869921 20.922985,1.71428567 24,1.71428567 Z" id="Combined-Shape" fill="currentColor" fill-rule="nonzero"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="operation">
+                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <div class="operation-content">
+                                <div class="operation-detals">
+                                    <div class="operation-date">9 აპრ, 2021</div>
+                                    <div class="operation-name">ლაშა იაკობაძე</div>
+                                    <div class="operation-type">გადარიცხვა</div>
+                                </div>
+                                <div class="operation-costs">
+                                    <div class="cost">0.00 ₾</div>
+                                    <div class="cost-detal">
+                                        <svg style="pointer-events: none; display: block; width: 100%; height: 100%;" width="16px" height="16px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="icons-48-system-more_vertical-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <rect id="shape" x="0" y="0" width="16" height="16"></rect>
+                                                <path d="M24,35.1428572 C27.077015,35.1428572 29.5714286,37.6372707 29.5714286,40.7142857 C29.5714286,43.7913008 27.077015,46.2857143 24,46.2857143 C20.922985,46.2857143 18.4285714,43.7913008 18.4285714,40.7142857 C18.4285714,37.6372707 20.922985,35.1428572 24,35.1428572 Z M24,18.4285714 C27.077015,18.4285714 29.5714286,20.922985 29.5714286,24 C29.5714286,27.077015 27.077015,29.5714286 24,29.5714286 C20.922985,29.5714286 18.4285714,27.077015 18.4285714,24 C18.4285714,20.922985 20.922985,18.4285714 24,18.4285714 Z M24,1.71428567 C27.077015,1.71428567 29.5714286,4.20869921 29.5714286,7.28571425 C29.5714286,10.3627293 27.077015,12.8571428 24,12.8571428 C20.922985,12.8571428 18.4285714,10.3627293 18.4285714,7.28571425 C18.4285714,4.20869921 20.922985,1.71428567 24,1.71428567 Z" id="Combined-Shape" fill="currentColor" fill-rule="nonzero"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="operation">
+                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <div class="operation-content">
+                                <div class="operation-detals">
+                                    <div class="operation-date">9 აპრ, 2021</div>
+                                    <div class="operation-name">ლაშა იაკობაძე</div>
+                                    <div class="operation-type">გადარიცხვა</div>
+                                </div>
+                                <div class="operation-costs">
+                                    <div class="cost">0.00 ₾</div>
+                                    <div class="cost-detal">
+                                        <svg style="pointer-events: none; display: block; width: 100%; height: 100%;" width="16px" height="16px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="icons-48-system-more_vertical-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <rect id="shape" x="0" y="0" width="16" height="16"></rect>
+                                                <path d="M24,35.1428572 C27.077015,35.1428572 29.5714286,37.6372707 29.5714286,40.7142857 C29.5714286,43.7913008 27.077015,46.2857143 24,46.2857143 C20.922985,46.2857143 18.4285714,43.7913008 18.4285714,40.7142857 C18.4285714,37.6372707 20.922985,35.1428572 24,35.1428572 Z M24,18.4285714 C27.077015,18.4285714 29.5714286,20.922985 29.5714286,24 C29.5714286,27.077015 27.077015,29.5714286 24,29.5714286 C20.922985,29.5714286 18.4285714,27.077015 18.4285714,24 C18.4285714,20.922985 20.922985,18.4285714 24,18.4285714 Z M24,1.71428567 C27.077015,1.71428567 29.5714286,4.20869921 29.5714286,7.28571425 C29.5714286,10.3627293 27.077015,12.8571428 24,12.8571428 C20.922985,12.8571428 18.4285714,10.3627293 18.4285714,7.28571425 C18.4285714,4.20869921 20.922985,1.71428567 24,1.71428567 Z" id="Combined-Shape" fill="currentColor" fill-rule="nonzero"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="operation-btn">
+                            <button class="btn">> ყველას ნახვა</button>
+                        </div>                        
+                    </div>
+                </div>                
+            </div>
+            <div class="service retirement">
+                <div class="services-content">
+                    <div class="foundation">
+                        <h2 class="foundation-header">საპენსიო ფონდი</h2>
+                        <span class="foundation-value">468.3 ₾</span>
+                    </div>
+                    <img class="fundation-logo" src="./assets/pension-agency-logo.png">
+                </div>                
+            </div>
+        </main>
+    </div>
+    <div class="container footer-content">
+        <footer class="footer">
+            <div class="footer-services">
+                <div class="copy">© 1997 - 2021 საქართველოს ბანკი</div>
+                <ul class="bank-services">
+                    <li class="bank-service"><a href="">პირობები</a></li>
+                    <li class="bank-service"><a href="">შეტყობინენბები</a></li>
+                    <li class="bank-service"><a href="">ცხელი ხაზი</a></li>
+                    <li class="bank-service"><a href="">უსაფრთხოების ცენტრები</a></li>
+                </ul>
+            </div>
+            <div class="footer-contacts">
+                <div class="footer-contact" style="background: url(./assets/apple.svg); background-repeat: no-repeat;"></div>
+                <div class="footer-contact" style="background: url(./assets/apple.svg); background-repeat: no-repeat;"></div>
+                <div class="footer-contact" style="background: url(./assets/apple.svg); background-repeat: no-repeat;"></div>
+                <div class="footer-contact" style="background: url(./assets/apple.svg); background-repeat: no-repeat;"></div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

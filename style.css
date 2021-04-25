@@ -1,0 +1,25 @@
+@import "./layouts/header.css";
+@import "./layouts/layout.css";
+@import "./layouts/footer.css";
+@import "./services/services.css";
+@import "./xcolors.css";
+@import "./media.css";
+
+* {
+  font-family: BOG;
+  font-stretch: normal;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  line-height: 1.4em;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+
+
+
+

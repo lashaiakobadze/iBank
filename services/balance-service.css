@@ -1,0 +1,122 @@
+.balance {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000CC;
+    padding: 0 0 6px 24px;
+  }  
+  
+  .service-content-header {
+    width: 100%;
+    height: 48px;
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .name {
+    width: 45.3%;
+    height: 100%;
+    padding-left: 24px;
+    padding-right: 0;
+  }
+  
+  .currency {
+    width: 26%;
+    height: 100%;
+    padding: 0 24px;
+  }
+  
+  .amount {
+    width: 32%;
+    height: 100%;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;}
+  
+  .header-name, .header-currency, .header-amount {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000AD;
+    font-family: "BOG Headline";
+  }
+  
+   
+  .header-amount {
+    justify-content: flex-end;
+  }
+  
+  .service-content-item {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  .service-content-item:hover {
+    background-color: rgba(174, 181, 187, 0.32);
+  }
+  
+  .universal {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  
+  
+  .universal span {
+    font-size: 13px;
+    color: #000000EB;
+    font-weight: 500;
+  }
+  
+  .universal-cur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .universal-curs, .extra-curs {
+    display: flex;
+  }
+
+  @media (max-width: 420px) {
+    .currency {
+      display: none;
+    }
+  }
+
+  @media (min-width: 420px) {
+    .extra-curs {
+      display: none;
+    }
+  }
+
+  .universal img {
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, .1); 
+  }
+  
+  .currency-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding: 0 8px;
+    line-height: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    border-radius: 12px;
+    color: rgba(0, 0, 0, 0.32);
+    margin-left: 4px;
+  }
+  
+  .amount span {
+    font-weight: 600;
+    font-size: 14px;
+  }
