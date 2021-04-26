@@ -1,12 +1,8 @@
-.footer-content {
-    margin-top: 80px;
-}
-
 .footer {
-    width: 100%;
     padding: 24px 0 80px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 20px;
 }
 
@@ -26,9 +22,9 @@
 .bank-services, .footer-contacts {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .bank-services li {
@@ -45,13 +41,23 @@
     color: #000000AD;
 }
 
+.footer-contacts {
+    justify-content: flex-end;
+    align-content: center;
+    gap: 40px;
+}
+
 .footer-contact {
-    width: 80px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 20px;
     padding: 6px 12px;
+    cursor: pointer;
     transition: background-color .5s;
 }
 
 .footer-contact:hover {
-    background-color: rgba(174, 181, 187, 0.32);
+    background-color: rgba(187, 84, 40, 0.1);
 }

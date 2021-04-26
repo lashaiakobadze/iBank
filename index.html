@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./asets/coronavirus-5107715_1280.png" type="image/x-icon">
     <title>iBank</title>
-    <!-- <link rel="stylesheet" href="layout.css"> -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container header-content">
-        <header class="header">
+    <div class="header-content">
+        <header class="container header">
             <div class="logo">
                 <img src="./assets/large.svg" alt="iBank-logo">
                 <span class="logo-beta">BETA</span>
@@ -58,8 +58,8 @@
             </div>
         </header>
     </div>
-    <div class="container navigation-content sticky">
-        <nav class="navigation">
+    <div class="navigation-content sticky">
+        <nav class="container navigation">
             <ul class="navigation-pages">
                 <li class="page main-page"><a href="">მთავარი</a></li>
                 <li class="page product-page"><a href="">პროდუქტები</a></li>
@@ -72,8 +72,8 @@
             <div class="navigation-services"></div>
         </nav>
     </div>
-    <div class="container main-content">
-        <main class="services">
+    <div class="main-content">
+        <main class="container services">
             <div class="service money">
                 <h2 class="service-header">სულ ხელმისაწვდომი თანხა</h2> 
                 <span class="balance">0.00 ₾</span> 
@@ -190,25 +190,25 @@
                             <div class="contact-logo">
                                 <img src="./assets/small.svg" alt="img" style="width: 24px; height: 24px;" >
                             </div>
-                            <div class="contact-name">Jon Doe</div>
+                            <div class="contact-name">ზაური გავაშელი</div>
                         </div>
                         <div class="contact-item">
                             <div class="contact-logo">
                                 <img src="./assets/small.svg" alt="img" style="width: 24px; height: 24px;" >
                             </div>
-                            <div class="contact-name">Jon Doe</div>
+                            <div class="contact-name">ზაური გავაშელი</div>
                         </div>                        
                         <div class="contact-item">
                             <div class="contact-logo">
                                 <img src="./assets/small.svg" alt="img" style="width: 24px; height: 24px;" >
                             </div>
-                            <div class="contact-name">Jon Doe</div>
+                            <div class="contact-name">ზაური გავაშელი</div>
                         </div>                        
                         <div class="contact-item">
                             <div class="contact-logo">
                                 <img src="./assets/small.svg" alt="img" style="width: 24px; height: 24px;" >
                             </div>
-                            <div class="contact-name">Jon Doe</div>
+                            <div class="contact-name">ზაური გავაშელი</div>
                         </div>                     
                         <div class="contact-item">
                             <div class="other-logo">
@@ -222,54 +222,42 @@
             <div class="service all-currency">
                 <div class="services-content">
                     <h2 class="service-header">ვალუტის კურსები</h2>
-                    <span class="balance">0.00 ₾</span> 
                     <div class="service-content service-content-header">
-                        <span class="header-name name">სახელი</span>
-                        <span class="header-currency currency">ვალუტა</span>
-                        <span class="header-amount amount">თანხა</span>
+                        <span class="header-name name">ვალუტა</span>
+                        <span class="header-currency currency">ოფიც.კურსი</span>
+                        <span class="header-amount amount">ინტ.ბანკის კურსი</span>
                     </div>
-                    <div class="service-content-item">
-                        <div class="name universal">
-                            <img src="./assets/universaluri.png" alt="angarishi">
-                            <span>უნივერსალური ანგარიში</span>
-                        </div>
-                        <div class="currency universal">
-                            <div class="universal-curs">
-                                <div class="currency-item">₾</div>
-                                <div class="currency-item">$</div>
-                                <div class="currency-item">&</div>
-                                <div class="currency-item">#</div>
-                            </div>
-                        </div>
-                        <div class="amount">
-                            <span>0.00 ₾</span>
-                        </div>
+                    <div class="currency-header">
+                        <span class="buy">ყიდვა</span>
+                        <span class="sell">გაყიდვა</span>
+                    </div>    
+                    <div class="currency-contents">
+                        <div class="currency-name"><span>$</span></div>
+                        <div class="currency-course">3.4534<span>0.0054</span></div> 
+                        <span class="currency-buy">3.4350</span>
+                        <span class="currency-sell">3.6750</span>
+                    </div>   
+                    <div class="currency-contents">
+                        <div class="currency-name"><span>€</span></div>
+                        <div class="currency-course">3.4534<span>0.0054</span></div>
+                        <span class="currency-buy">3.4350</span>
+                        <span class="currency-sell">3.6750</span>
                     </div>
-                    <div class="service-content-item">
-                        <div class="name universal">
-                            <img src="./assets/universaluri.png" alt="angarishi">
-                            <span>უნივერსალური ანგარიში</span>
-                        </div>
-                        <div class="currency universal">
-                            <div class="universal-curs">
-                                <div class="currency-item">₾</div>
-                                <div class="currency-item">$</div>
-                                <div class="currency-item">&</div>
-                                <div class="currency-item">#</div>
-                            </div>
-                        </div>
-                        <div class="amount">
-                            <span>0.00 ₾</span>
-                        </div>
-                    </div>               
-                </div>                
+                    <div class="currency-contents">
+                        <div class="currency-name"><span>£</span></div>
+                        <div class="currency-course">3.4534<span>0.0054</span></div>
+                        <span class="currency-buy">3.4350</span>
+                        <span class="currency-sell">3.6750</span>
+                    </div>      
+                </div>
+                                
             </div>
             <div class="service operations">
                 <div class="services-content">
                     <h2 class="service-header">ბოლო ოპერაციები</h2>
                     <div class="last-operations">
                         <div class="operation">
-                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <img class="operation-img" src="./assets/no-image-large.png" alt="">
                             <div class="operation-content">
                                 <div class="operation-detals">
                                     <div class="operation-date">9 აპრ, 2021</div>
@@ -291,7 +279,7 @@
                         </div>
 
                         <div class="operation">
-                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <img class="operation-img" src="./assets/no-image-large.png" alt="">
                             <div class="operation-content">
                                 <div class="operation-detals">
                                     <div class="operation-date">9 აპრ, 2021</div>
@@ -313,7 +301,7 @@
                         </div>
 
                         <div class="operation">
-                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <img class="operation-img" src="./assets/no-image-large.png" alt="">
                             <div class="operation-content">
                                 <div class="operation-detals">
                                     <div class="operation-date">9 აპრ, 2021</div>
@@ -335,7 +323,7 @@
                         </div>
 
                         <div class="operation">
-                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <img class="operation-img" src="./assets/no-image-large.png" alt="">
                             <div class="operation-content">
                                 <div class="operation-detals">
                                     <div class="operation-date">9 აპრ, 2021</div>
@@ -357,7 +345,7 @@
                         </div>
 
                         <div class="operation">
-                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <img class="operation-img" src="./assets/no-image-large.png" alt="">
                             <div class="operation-content">
                                 <div class="operation-detals">
                                     <div class="operation-date">9 აპრ, 2021</div>
@@ -379,7 +367,7 @@
                         </div>
 
                         <div class="operation">
-                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <img class="operation-img" src="./assets/no-image-large.png" alt="">
                             <div class="operation-content">
                                 <div class="operation-detals">
                                     <div class="operation-date">9 აპრ, 2021</div>
@@ -401,7 +389,7 @@
                         </div>
 
                         <div class="operation">
-                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <img class="operation-img" src="./assets/no-image-large.png" alt="">
                             <div class="operation-content">
                                 <div class="operation-detals">
                                     <div class="operation-date">9 აპრ, 2021</div>
@@ -423,7 +411,7 @@
                         </div>
 
                         <div class="operation">
-                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <img class="operation-img" src="./assets/no-image-large.png" alt="">
                             <div class="operation-content">
                                 <div class="operation-detals">
                                     <div class="operation-date">9 აპრ, 2021</div>
@@ -445,7 +433,7 @@
                         </div>
 
                         <div class="operation">
-                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <img class="operation-img" src="./assets/no-image-large.png" alt="">
                             <div class="operation-content">
                                 <div class="operation-detals">
                                     <div class="operation-date">9 აპრ, 2021</div>
@@ -468,7 +456,7 @@
 
 
                         <div class="operation">
-                            <img class="operation-img" src="./assets/plus.png" alt="">
+                            <img class="operation-img" src="./assets/no-image-large.png" alt="">
                             <div class="operation-content">
                                 <div class="operation-detals">
                                     <div class="operation-date">9 აპრ, 2021</div>
@@ -505,8 +493,8 @@
             </div>
         </main>
     </div>
-    <div class="container footer-content">
-        <footer class="footer">
+    <div class="footer-content">
+        <footer class="container footer">
             <div class="footer-services">
                 <div class="copy">© 1997 - 2021 საქართველოს ბანკი</div>
                 <ul class="bank-services">
@@ -518,9 +506,9 @@
             </div>
             <div class="footer-contacts">
                 <div class="footer-contact" style="background: url(./assets/apple.svg); background-repeat: no-repeat;"></div>
+                <div class="footer-contact" style="background: url(./assets/google.svg); background-repeat: no-repeat;"></div>
                 <div class="footer-contact" style="background: url(./assets/apple.svg); background-repeat: no-repeat;"></div>
-                <div class="footer-contact" style="background: url(./assets/apple.svg); background-repeat: no-repeat;"></div>
-                <div class="footer-contact" style="background: url(./assets/apple.svg); background-repeat: no-repeat;"></div>
+                <div class="footer-contact" style="background: url(./assets/google.svg); background-repeat: no-repeat;"></div>
             </div>
         </footer>
     </div>
